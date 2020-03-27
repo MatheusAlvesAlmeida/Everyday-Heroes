@@ -9,7 +9,7 @@
 
 body{
     font: 400 14px Nunito, sans-serif;
-    background: #f0f0f5;
+    background: #dadada;
 }
 
 input, button, textarea{
@@ -71,6 +71,7 @@ form textarea{
     text-decoration: none;
     font-weight: bold;
     transition: opacity 0.2s;
+    padding-left: 90px;
 }
 
 .backLink{

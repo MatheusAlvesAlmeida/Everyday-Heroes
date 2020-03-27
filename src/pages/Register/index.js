@@ -16,8 +16,10 @@ export default function Register(){
                     <input placeholder="Nome do local"/>
                     <input type="email" placeholder="E-mail"/>
                     <input placeholder="Número para contato"/>
-                    <input placeholder="Cidade"/>
-                    <input placeholder="UF"/>
+                    <div className="input-group">
+                        <input placeholder="Cidade"/>
+                        <input placeholder="UF" style={{ width: 80 }}/>
+                    </div>
                     <button className="button" type="submit">Cadastrar</button>
                     <Link className="backLink" to="/">
                         Já tenho cadastro
