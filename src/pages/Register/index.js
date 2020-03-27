@@ -9,7 +9,7 @@ export default function Register(){
             <div className="content">
                 <section>
                     <img src={logo} alt="Logo"/>
-                    <h1>Faça o seu cadastro e ajude as pessoas a encontrarei os pontos de coleta e terem noção das necessidades imediatas.</h1>
+                    <h1>Faça o seu cadastro e ajude as pessoas a encontrarei os pontos de coleta.</h1>
                 </section>
 
                 <form>

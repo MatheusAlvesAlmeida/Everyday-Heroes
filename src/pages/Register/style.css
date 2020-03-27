@@ -6,7 +6,6 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    
 }
 
 .register-container .content{
@@ -21,7 +20,7 @@
 }
 
 .register-container .content img{
-    padding-left: 150px;
+    padding-left: 110px;
 }
 
 .register-container .content form input{

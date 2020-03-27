@@ -28,6 +28,10 @@ h1{
     margin-bottom: 30px;
 }
 
+.login-container section.form form a svg{
+    margin-right: 3px;
+}
+
 .login-container img{
     padding-left: 60px;
 }

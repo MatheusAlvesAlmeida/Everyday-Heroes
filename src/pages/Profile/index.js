@@ -2,6 +2,7 @@ import React from 'react';
 import './style.css';
 import {Link} from 'react-router-dom';
 import logo from '../../assets/alogo.svg'
+import { FiTrash2, FiEdit3 } from 'react-icons/fi';
 
 
 export default function Profile(){
@@ -11,9 +12,10 @@ export default function Profile(){
                 <img src={logo} alt="Logo"/>
                 <span>Bem vindo, Usuário</span>
                 <Link className="button" to="/address/new">Cadastrar novo ponto</Link>
+                <Link className="button" to="/home">Ir para a página principal</Link>
             </header>
 
-            <h1>Pontos cadastrados</h1>
+            <h1>Pontos de coleta cadastrados por você</h1>
             <ul>
                 <li>
                     <strong>Ponto:</strong>
@@ -28,7 +30,7 @@ export default function Profile(){
                     <strong>Itens necessários:</strong>
                     <p>asdas</p>
 
-                    <button type="button">Deletar</button>
+                    <button type="button"><FiTrash2 size={16} color="#e02041"/></button>
                 </li>
                 <li>
                     <strong>Ponto:</strong>
@@ -43,7 +45,7 @@ export default function Profile(){
                     <strong>Itens necessários:</strong>
                     <p>asdas</p>
 
-                    <button type="button">Deletar</button>
+                    <button type="button"><FiTrash2 size={16} color="#e02041"/></button>
                 </li>
                 <li>
                     <strong>Ponto:</strong>
@@ -58,7 +60,7 @@ export default function Profile(){
                     <strong>Itens necessários:</strong>
                     <p>asdas</p>
 
-                    <button type="button">Deletar</button>
+                    <button type="button"><FiTrash2 size={16} color="#e02041"/></button>
                 </li>
                 <li>
                     <strong>Ponto:</strong>
@@ -73,7 +75,7 @@ export default function Profile(){
                     <strong>Itens necessários:</strong>
                     <p>asdas</p>
 
-                    <button type="button">Deletar</button>
+                    <button type="button"><FiTrash2 size={16} color="#e02041"/></button>
                 </li>
             </ul>
         </div>
