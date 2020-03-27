@@ -1,7 +1,6 @@
 import React from 'react';
 import './style.css';
 import {Link} from 'react-router-dom';
-import loginPage from '../../assets/loginPage.jpg'
 import logo from '../../assets/alogo.svg'
 
 export default function Register(){
@@ -17,12 +16,8 @@ export default function Register(){
                     <input placeholder="Nome do local"/>
                     <input type="email" placeholder="E-mail"/>
                     <input placeholder="Número para contato"/>
-
-                    <div className="input-group">
-                        <input placeholder="Cidade"/>
-                        <input placeholder="UF"/>
-                    </div>
-
+                    <input placeholder="Cidade"/>
+                    <input placeholder="UF"/>
                     <button className="button" type="submit">Cadastrar</button>
                     <Link className="backLink" to="/">
                         Já tenho cadastro
