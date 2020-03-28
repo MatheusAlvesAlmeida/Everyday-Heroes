@@ -9,7 +9,7 @@ export default function NewAddress(){
             <div className="content">
                 <section>
                     <img src={logo} alt="Logo"/>
-                    <h1>Insira as informações corretamente para que possamos encontrar os heróis que irão te ajudar.</h1>
+                    <h1 align="justify">Insira as informações corretamente para que possamos encontrar os heróis que irão te ajudar.</h1>
                 </section>
 
                 <form>

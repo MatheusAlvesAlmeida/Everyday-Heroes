@@ -12,12 +12,18 @@
 .new-addres .content{
     width: 100%;
     padding: 96px;
-    background: #f0f0f5;
+    background: #228B22;
     box-shadow: 0 0 100px rgba(0, 0, 0, 0.1);
     border-radius: 8px;
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
+
+.new-addres .content section{
+    margin-left: 0;
+    margin-right: 200px;
+    margin-bottom: 100px;
 }
 
 .new-addres .content img{
