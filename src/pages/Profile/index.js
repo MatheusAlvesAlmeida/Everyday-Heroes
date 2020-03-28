@@ -11,8 +11,9 @@ export default function Profile(){
             <header>
                 <img src={logo} alt="Logo"/>
                 <span>Bem vindo, Usuário</span>
-                <Link className="button" to="/address/new">Cadastrar novo ponto</Link>
-                <Link className="button" to="/home">Ir para a página principal</Link>
+                <Link className="button" to="/address/new">Cadastrar ponto</Link>
+                <Link className="button" to="/donate">Doação</Link>
+                <Link className="button" to="/home">Página Principal</Link>
             </header>
 
             <h1>Pontos de coleta cadastrados por você</h1>

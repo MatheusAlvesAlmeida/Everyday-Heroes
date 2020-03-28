@@ -30,6 +30,10 @@
     padding-left: 100px;
 }
 
+.new-addres .content form button{
+    border-radius: 8px;
+}
+
 .new-addres .content form input,
 .new-addres .content form textarea{
     margin-top: 8px;

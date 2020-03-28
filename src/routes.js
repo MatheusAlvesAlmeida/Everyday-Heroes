@@ -5,6 +5,7 @@ import Register from './pages/Register';
 import Profile from './pages/Profile';
 import NewAddress from './pages/NewAddress';
 import Home from './pages/Home'
+import Donate from './pages/Donate'
 
 export default function Routes(){
     return(
@@ -15,6 +16,7 @@ export default function Routes(){
                 <Route path="/profile" component={Profile} />
                 <Route path="/address/new" component={NewAddress} />
                 <Route path="/home" component={Home} />
+                <Route path="/donate" component={Donate} />
             </Switch>
         </BrowserRouter>
     );
